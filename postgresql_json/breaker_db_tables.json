@@ -1,0 +1,8 @@
+{
+    "netherportals": "CREATE TABLE netherportals ( id INTEGER NOT NULL PRIMARY KEY UNIQUE, xcord_overworld INTEGER, ycord_overworld INTEGER, zcord_overworld INTEGER, xcord_nether INTEGER, ycord_nether INTEGER, zcord_nether INTEGER, local_overworld TEXT, owner_overworld TEXT, notes_overworld TEXT, overworld_true_name TEXT NOT NULL UNIQUE, local_nether TEXT, owner_nether TEXT, notes_nether TEXT, nether_true_name TEXT NOT NULL UNIQUE, username TEXT NOT NULL references userprofile(username));",
+    "userprofile": "CREATE TABLE userprofile ( id INT NOT NULL UNIQUE PRIMARY KEY, username TEXT NOT NULL UNIQUE, password TEXT NOT NULL, firstname TEXT NOT NULL, lastname TEXT NOT NULL, role TEXT NOT NULL );",
+    "native_user_keys": "CREATE TABLE native_user_keys ( id TEXT PRIMARY KEY NOT NULL UNIQUE, sessionid TEXT NOT NULL UNIQUE, lastactive TEXT NOT NULL, expiration TEXT NOT NULL, username TEXT NOT NULL UNIQUE );",
+    "kingtest": "CREATE TABLE kingtest ( id INT NOT NULL PRIMARY KEY, somdata TEXT );",
+    "netherportal_images": "CREATE TABLE netherportal_images (id INT PRIMARY KEY NOT NULL UNIQUE, name TEXT NOT NULL UNIQUE, true_name TEXT NOT NULL, username TEXT NOT NULL references userprofile(username));",
+    "netherportal_access_rights": "CREATE TABLE netherportal_access_rights (id INT PRIMARY KEY NOT NULL UNIQUE, netherportals TEXT [], username TEXT NOT NULL references userprofile(username));"
+}

@@ -1,0 +1,19 @@
+{
+    "netherportals": [
+        "INSERT INTO netherportals(id, xcord_overworld, ycord_overworld, zcord_overworld, xcord_nether, ycord_nether, zcord_nether, local_overworld, owner_overworld, notes_overworld, local_nether, owner_nether, notes_nether, username, true_name) values(1, 79, 79, 79, -66, -66, -66, 'near the breaker', 'breaker', 'i dont like notes says the breaker', 'far away from the breaker', 'not breaker', 'i like it says the breaker', 'naliah@gmail.com', 'True Homebase');",
+        "INSERT INTO netherportals(id, xcord_overworld, ycord_overworld, zcord_overworld, xcord_nether, ycord_nether, zcord_nether, local_overworld, owner_overworld, notes_overworld, local_nether, owner_nether, notes_nether, username, true_name) values(2, 100, 101, 102, -677, -678, -679, 'close to death', 'life', 'drowing in notes says the death', 'far from death', 'not life', 'floating in notes says the death', 'luke@gmail.com', 'false random lion den);"
+    ],
+    "userprofile": [
+        "insert into userprofile(id, username, password, firstname, lastname, role) Values(0, 'luke@gmail.com', '$2a$04$suKD2e6akE6kl7.wXRzSJOPys/Q3ffju8hJKuGzOk3m6UXDlbWIRi', 'luke', 'ochoa', 'king');",
+        "insert into userprofile(id, username, password, firstname, lastname, role) Values(1, 'naliah@gmail.com', '$2a$04$suKD2e6akE6kl7.wXRzSJOPys/Q3ffju8hJKuGzOk3m6UXDlbWIRi', 'naliah', 'hetacon', 'king');"
+    ],
+    "native_user_keys": [
+        "insert into native_user_keys(id, sessionid, lastactive, expiration, username) values(1, '1c450476-328e-4f4d-bb57-d10ab81a499a', '2022-09-24T02:55:28Z', '2022-09-24T02:55:58Z', 'luke@gmail.com');"
+    ],
+    "kingtest": [
+        "INSERT INTO kingtest(id, somdata) values(1, 'one');",
+        "INSERT INTO kingtest(id, somdata) values(2, 'two');",
+        "INSERT INTO kingtest(id, somdata) values(3, 'three');",
+        "INSERT INTO kingtest(id, somdata) values(4, 'four');"
+    ]
+}

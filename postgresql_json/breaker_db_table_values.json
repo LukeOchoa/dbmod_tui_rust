@@ -1,0 +1,33 @@
+{
+    "netherportals": [
+        "INSERT INTO netherportals(id, xcord_overworld, ycord_overworld, zcord_overworld, xcord_nether, ycord_nether, zcord_nether, local_overworld, owner_overworld, notes_overworld, overworld_true_name, local_nether, owner_nether, notes_nether, nether_true_name, username) values(1, 79, 79, 79, -66, -66, -66, 'near the breaker', 'breaker', 'i dont like notes says the breaker', 'Lunailah SpawnPoint', 'far away from the breaker', 'not breaker', 'i like it says the breaker', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportals(id, xcord_overworld, ycord_overworld, zcord_overworld, xcord_nether, ycord_nether, zcord_nether, local_overworld, owner_overworld, notes_overworld, overworld_true_name, local_nether, owner_nether, notes_nether, nether_true_name, username) values(2, 100, 101, 102, -677, -678, -679, 'close to death', 'life', 'drowing in notes says the death', 'Luke SpawnPoint', 'far from death', 'not life', 'floating in notes says the death', 'Breaking Nether Spawn', 'luke@gmail.com');"
+    ],
+    "userprofile": [
+        "insert into userprofile(id, username, password, firstname, lastname, role) Values(0, 'luke@gmail.com', '$2a$04$suKD2e6akE6kl7.wXRzSJOPys/Q3ffju8hJKuGzOk3m6UXDlbWIRi', 'luke', 'ochoa', 'king');",
+        "insert into userprofile(id, username, password, firstname, lastname, role) Values(1, 'naliah@gmail.com', '$2a$04$suKD2e6akE6kl7.wXRzSJOPys/Q3ffju8hJKuGzOk3m6UXDlbWIRi', 'naliah', 'hetacon', 'king');"
+    ],
+    "native_user_keys": [
+        "insert into native_user_keys(id, sessionid, lastactive, expiration, username) values(1, '1c450476-328e-4f4d-bb57-d10ab81a499a', '2022-09-24T02:55:28Z', '2022-09-24T02:55:58Z', 'luke@gmail.com');"
+    ],
+    "kingtest": [
+        "INSERT INTO kingtest(id, somdata) values(1, 'one');",
+        "INSERT INTO kingtest(id, somdata) values(2, 'two');",
+        "INSERT INTO kingtest(id, somdata) values(3, 'three');",
+        "INSERT INTO kingtest(id, somdata) values(4, 'four');"
+    ],
+    "netherportal_images": [
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(0, 'breaker1f330638-acf3-4ca8-8df9-7121488dfcf4', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(1, 'breakera0b2b95b-05b4-4ce1-ad5a-c456f23b404d', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(2, 'CallPetaPartOne.png', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(3, 'DuggyAndLukeEnderColdBoisMeme.png', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(4, 'JacobIronFarmMeme.png', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(5, 'RyanSpawnHouseMeme.png', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(6, 'RyGyDuggy.png', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(7, 'Some String', 'World Spawn', 'naliah@gmail.com');",
+        "INSERT INTO netherportal_images(id, name, true_name, username) values(8, 'SpiderCowboy.png', 'World Spawn', 'naliah@gmail.com');"
+    ],
+    "netherportal_access_rights": [
+        "INSERT INTO netherportal_access_rights(id, netherportals, username) values(0, ARRAY ['World Spawn', 'Lunailah SpawnPoint'], 'luke@gmail.com');"
+    ]
+}
